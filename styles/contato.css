@@ -37,3 +37,13 @@
     color: var(--cor-texto);
     font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    .contato__container {
+        flex-direction: column;
+    }
+
+    .contato__link__texto {
+        margin-bottom: 20px;
+    }
+}

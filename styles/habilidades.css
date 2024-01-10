@@ -1,6 +1,6 @@
 .habilidades {
     text-align: center;
-    padding: 60px 0 80px 0;
+    padding: 60px;
 }
 
 .habilidades__titulo {
@@ -14,7 +14,7 @@
 .habilidades__container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 70px;
+    gap: 50px;
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -24,7 +24,13 @@
 }
 
 .habilidades__imagem:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     transform: scale(1.1);
     transition: all 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+    .habilidades__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

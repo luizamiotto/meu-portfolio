@@ -49,6 +49,7 @@
     padding: 16px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
     border-radius: 32px;
     display: block;
     margin-bottom: 8px;
@@ -56,4 +57,14 @@
 
 .projetos__container__projeto__botao:hover {
     background-color: #342F73;
+}
+
+@media (max-width: 1024px) {
+    .projetos__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projetos__container__projeto__descricao {
+        font-size: 16px;
+    }
 }
