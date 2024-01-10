@@ -27,6 +27,7 @@
 .projetos__container__projeto__imagem:hover {
     transform: scale(1.1);
     opacity: 0.9;
+    transition: all 0.5s ease-out;
 }
 
 .projetos__container__projeto__titulo {

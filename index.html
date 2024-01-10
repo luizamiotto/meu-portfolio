@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <div class="container">
         <header class="cabecalho" id="header">
-            <ul class="cabecalho__lista">
+            <ul class="cabecalho__lista" data-aos="fade-down">
                 <li>
                 <a class="cabecalho__lista__item" href="#sobre">Sobre mim</a>
                 </li>
@@ -24,13 +25,13 @@
                 </li>
             </ul>
             <div class="cabecalho__avatar">
-                <img class="cabecalho__avatar__imagem" src="./images/perfil.png" alt="Foto da Luiza">
-                <h1 class="cabecalho__avatar__titulo">Luiza Miotto</h1>
-                <h2 class="cabecalho__avatar__subtitulo">desenvolvedora front-end</h2>
+                <img class="cabecalho__avatar__imagem" src="./images/perfil.png" alt="Foto da Luiza" data-aos="zoom-out">
+                <h1 class="cabecalho__avatar__titulo" data-aos="fade-up">Luiza Miotto</h1>
+                <h2 class="cabecalho__avatar__subtitulo" data-aos="fade-up">desenvolvedora front-end</h2>
             </div>
         </header>
     
-        <section id="sobre" class="sobre">
+        <section id="sobre" class="sobre" data-aos="fade-up">
             <h2 class="sobre__titulo">Sobre mim</h2>
             <p class="sobre__descricao">
                 Olá! Eu sou a Luiza! <br>
@@ -44,27 +45,27 @@
             </p>
         </section>
 
-        <section id="habilidades" class="habilidades">
-            <h2 class="habilidades__titulo">Habilidades</h2>
+        <section id="habilidades" class="habilidades" >
+            <h2 class="habilidades__titulo" data-aos="fade-right">Habilidades</h2>
             <div class="habilidades__container">
-                <img class="habilidades__imagem" src="./images/html.png" alt="html">
-                <img class="habilidades__imagem" src="./images/css.png" alt="css">
-                <img class="habilidades__imagem" src="./images/js.png" alt="javascript">
-                <img class="habilidades__imagem" src="./images/sass.png" alt="sass">
-                <img class="habilidades__imagem" src="./images/ts.png" alt="typescript">
-                <img class="habilidades__imagem" src="./images/react.png" alt="react">
-                <img class="habilidades__imagem" src="./images/vue.png" alt="vue">
-                <img class="habilidades__imagem" src="./images/jquery.png" alt="jquey">
-                <img class="habilidades__imagem" src="./images/bootstrap.png" alt="bootstrap">
-                <img class="habilidades__imagem" src="./images/figma.png" alt="figma">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/html.png" alt="html">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/css.png" alt="css">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/js.png" alt="javascript">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/sass.png" alt="sass">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/ts.png" alt="typescript">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/react.png" alt="react">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/vue.png" alt="vue">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/jquery.png" alt="jquey">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/bootstrap.png" alt="bootstrap">
+                <img data-aos="fade-right" class="habilidades__imagem" src="./images/figma.png" alt="figma">
             </div>
         </section>
     
-        <section id="projetos" class="projetos">
+        <section id="projetos" class="projetos" data-aos="fade-up">
             <h2 class="projetos__titulo">Projetos</h2>
             <div class="projetos__container">
                 <div>
-                    <img class="projetos__container__projeto__imagem" src="./images/projeto1.png" alt="Imagem do projeto">
+                    <img data-aos="zoom-out-down" class="projetos__container__projeto__imagem" src="./images/projeto1.png" alt="Imagem do projeto">
                     <h3 class="projetos__container__projeto__titulo">Calculadora IMC</h3>
                     <p class="projetos__container__projeto__descricao">
                         Ferramentas utilizadas: <br>
@@ -74,7 +75,7 @@
                     <a class="projetos__container__projeto__botao" href="https://github.com/lumiotto/curso_ebac_frontend/tree/exercicio_react" target="_blank">Ver repositório</a>
                 </div>
                 <div>
-                    <img class="projetos__container__projeto__imagem" src="./images/projeto3.png" alt="Imagem do projeto">
+                    <img data-aos="zoom-out-down"  class="projetos__container__projeto__imagem" src="./images/projeto3.png" alt="Imagem do projeto">
                     <h3 class="projetos__container__projeto__titulo">Landing page de evento fictício</h3>
                     <p class="projetos__container__projeto__descricao">
                         Ferramentas utilizadas: <br>
@@ -83,7 +84,7 @@
                     <a class="projetos__container__projeto__botao" href="https://github.com/lumiotto/aniversario" target="_blank">Ver repositório</a>
                 </div>
                 <div>
-                    <img class="projetos__container__projeto__imagem" src="./images/projeto4.png" alt="Imagem do projeto">
+                    <img data-aos="zoom-out-down"  class="projetos__container__projeto__imagem" src="./images/projeto4.png" alt="Imagem do projeto">
                     <h3 class="projetos__container__projeto__titulo">Site fictício de filme</h3>
                     <p class="projetos__container__projeto__descricao">
                         Ferramentas utilizadas: <br>
@@ -92,7 +93,7 @@
                     <a class="projetos__container__projeto__botao" href="https://github.com/lumiotto/filme_barbie" target="_blank">Ver repositório</a>
                 </div>
                 <div>
-                    <img class="projetos__container__projeto__imagem" src="./images/projeto2.png" alt="Imagem do projeto">
+                    <img data-aos="zoom-out-down" class="projetos__container__projeto__imagem" src="./images/projeto2.png" alt="Imagem do projeto">
                     <h3 class="projetos__container__projeto__titulo">Calculadora aritmética</h3>
                     <p class="projetos__container__projeto__descricao">
                         Ferramentas utilizadas: <br>
@@ -101,7 +102,7 @@
                     <a class="projetos__container__projeto__botao" href="https://github.com/lumiotto/calculadora-vue" target="_blank">Ver repositório</a>
                 </div>
                 <div>
-                    <img class="projetos__container__projeto__imagem" src="./images/projeto5.png" alt="Imagem do projeto">
+                    <img data-aos="zoom-out-down" class="projetos__container__projeto__imagem" src="./images/projeto5.png" alt="Imagem do projeto">
                     <h3 class="projetos__container__projeto__titulo">Site fictício de viagens</h3>
                     <p class="projetos__container__projeto__descricao">
                         Ferramentas utilizadas: <br>
@@ -110,7 +111,7 @@
                     <a class="projetos__container__projeto__botao" href="https://github.com/lumiotto/partiu-viagens" target="_blank">Ver repositório</a>
                 </div>
                 <div>
-                    <img class="projetos__container__projeto__imagem" src="./images/projeto6.png" alt="Imagem do projeto">
+                    <img data-aos="zoom-out-down" class="projetos__container__projeto__imagem" src="./images/projeto6.png" alt="Imagem do projeto">
                     <h3 class="projetos__container__projeto__titulo">Site fictício de adoção</h3>
                     <p class="projetos__container__projeto__descricao">
                         Ferramentas utilizadas: <br>
@@ -119,18 +120,18 @@
                     <a class="projetos__container__projeto__botao" href="https://github.com/lumiotto/adote-um-pet" target="_blank">Ver repositório</a>
                 </div>
                 <div>
-                    <img class="projetos__container__projeto__imagem" src="./images/projeto7.png" alt="Imagem do projeto">
+                    <img data-aos="zoom-out-down" class="projetos__container__projeto__imagem" src="./images/projeto7.png" alt="Imagem do projeto">
                     <h3 class="projetos__container__projeto__titulo">Meu portfólio</h3>
                     <p class="projetos__container__projeto__descricao">
                         Ferramentas utilizadas: <br>
                         HTML, CSS</p>
                     <a class="projetos__container__projeto__botao" href="#header">Ver projeto</a>
-                    <a class="projetos__container__projeto__botao" href="#" target="_blank">Ver repositório</a>
+                    <a class="projetos__container__projeto__botao" href="https://github.com/lumiotto/meu-portfolio" target="_blank">Ver repositório</a>
                 </div>
             </div>
         </section>
     
-        <section id="contato" class="contato">
+        <section id="contato" class="contato" data-aos="fade-right">
             <h2 class="contato__titulo">Contato</h2>
             <div class="contato__container">
                 <div>
@@ -160,6 +161,13 @@
             </div>
         </section>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
 
 </body>
 </html>
