@@ -59,12 +59,26 @@
     background-color: #342F73;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .projetos__container {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .projetos__container__projeto__descricao {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projetos__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projetos__container__projeto__descricao {
+        font-size: 16px;
+    }
+
+    .projetos__container__projeto__imagem {
+        width: 100%;
     }
 }

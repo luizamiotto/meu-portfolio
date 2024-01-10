@@ -55,14 +55,17 @@
 @media (max-width: 768px) {
     .cabecalho__lista {
         padding: 30px;
+        flex-direction: column;
     }
 
     .cabecalho__lista__item {
         font-size: 18px;
+        margin-bottom: 8px;
     }
 
     .cabecalho__avatar__imagem {
-        width: 300px;
+        width: 250px;
+        align-items: center;
     }
 
     .cabecalho__avatar__titulo {
@@ -71,5 +74,9 @@
     
     .cabecalho__avatar__subtitulo {
         font-size: 20px;
+    }
+
+    li {
+        margin-bottom: 16px;
     }
 }
