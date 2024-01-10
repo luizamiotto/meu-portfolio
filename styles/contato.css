@@ -1,0 +1,38 @@
+.contato {
+    text-align: center;
+    padding: 60px;
+}
+
+.contato__titulo {
+    color: var(--cor-texto);
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+}
+
+.contato__container {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.contato__link {
+    text-decoration: none;
+}
+
+
+.contato__link__icone {
+    width: 32px;
+    padding-bottom: 16px;
+}
+
+.contato__link__icone:hover {
+    transform: scale(1.1);
+}
+
+.contato__link__texto {
+    color: var(--cor-texto);
+    font-size: 16px;
+}

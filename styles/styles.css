@@ -1,0 +1,36 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./sobre.css");
+@import url("./habilidades.css");
+@import url("./projetos.css");
+@import url("./contato.css");
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../../assets/fonts/GOTHIC.TTF);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../../assets/fonts/GOTHICB.TTF);
+    font-weight: 700;
+}
+
+:root {
+    --cor-principal: #0D0A32;
+    --cor-secundaria: #D58BDD;
+    --cor-texto: #fff;
+}
+
+body {
+    background-color: var(--cor-principal);
+    background-image: url(../images/gradiente-bg.png);
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
